@@ -24,6 +24,7 @@ body {
 .titulo{
   position: center;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
-  color: rgb(100, 212, 100);
+  
+  
   -webkit-text-stroke: 1px rgb(20, 20, 18);
 }
