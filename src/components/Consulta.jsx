@@ -2,6 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Consulta = ({ consulta }) => {
+
     return ( 
         <div style= {
             {

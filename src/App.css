@@ -20,11 +20,3 @@ body {
 .App {
   text-align: center;
 }
-
-.titulo{
-  position: center;
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
-  
-  
-  -webkit-text-stroke: 1px rgb(20, 20, 18);
-}
