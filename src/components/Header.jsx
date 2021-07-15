@@ -1,10 +1,7 @@
 import { Container, Jumbotron  } from 'react-bootstrap';
 import React from 'react';
 
-
-
-
-const Header = ({titulo, subtitulo}) => {
+const Header = () => {
 
     return (
         <Jumbotron fluid
@@ -15,8 +12,8 @@ const Header = ({titulo, subtitulo}) => {
             }
             }>
         <Container>
-          <h1>{titulo}</h1>
-          <p> {subtitulo} </p>
+          <h1>CriptoConsultora</h1>
+          <p> Asesoramiento en criptomonedas </p>
         </Container>
         </Jumbotron>
     );

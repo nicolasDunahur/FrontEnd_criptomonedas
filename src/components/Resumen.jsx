@@ -1,6 +1,5 @@
-import React, { Fragment } from 'react';
 import styled from '@emotion/styled';
-import {primeraMayuscula} from '../helper';
+
 
 const ContenedorResumen = styled.div `
     padding: 1rem;
@@ -12,18 +11,17 @@ const ContenedorResumen = styled.div `
 
 const Resumen = ({datos}) => {
 
-    // Extrer datos
-    const {marca, year, plan} = datos;
+    const {monto, plazo, riesgo} = datos;
 
-    if(marca === '' || year === '' || plan === '' ) return null;
+    if(monto === '' || plazo === '' || riesgo === '' ) return null;
 
     return ( 
         <ContenedorResumen>
-             <h2>Resumen de cotización</h2>
+             <h1>Resumen de cotización</h1>
                 <ul>
-                    <li>Marca: {primeraMayuscula(marca)}</li>
-                    <li>Año: {year}</li>
-                    <li>Plan: {primeraMayuscula(plan)}</li>
+                    <h3>Monto: {monto}</h3>
+                    <h3>Plazo: {plazo}</h3>
+                    <h3>Riesgo: {riesgo}</h3>
                 </ul>
         </ContenedorResumen>
      );
